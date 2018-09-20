@@ -4,7 +4,7 @@
  * Source:  http://beej.us/guide/bgipc/html/single/bgipc.html#signals
  *          http://beej.us/guide/bgipc/examples/sigint.c
  *
- * Modified by: hurdleg@algonquincollege.com
+ * Modified by: hurdleg@algonquincollege.com1
  *
  * Usage:
  *  From Momentics IDE, run program; notice PID; enter some text, but don't hit the enter key
