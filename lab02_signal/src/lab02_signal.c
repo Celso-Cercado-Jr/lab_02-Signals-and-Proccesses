@@ -20,6 +20,7 @@
 
 volatile sig_atomic_t got_usr1;
 
+
 int usr1Happened = 1;
 
 void sigusr1_handler(int sig)
@@ -46,13 +47,12 @@ int main(void)
 
     printf("PID %d: Running...\n", getpid());
     while (!got_usr1) {
-       // printf("PID %d: Running...\n", getpid());
         printf("PID %d: Received USR1\n", getpid());
        // sigusr1_handler(got_usr1);
         sleep(1);
     }
-
-    printf("Exiting!\n");
+    printf("PID %d: Exiting!\n", getpid());
+    printf("Stopped!\n");
 
     return 0;
 }
