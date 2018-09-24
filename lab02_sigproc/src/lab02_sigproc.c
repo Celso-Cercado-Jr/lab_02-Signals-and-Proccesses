@@ -53,8 +53,8 @@ int main(void)
 
     printf("PID %d = Parent Running...\n", getppid());
     printf("PID %d = Child Received USR1\n", getpid());
-    printf("PID %d = Child Exiting...\n", getpid());
-    printf("PID %d = Child Finished, parent exiting..\n", getppid());
+    printf("PID %d = Child Exiting..\n", getpid());
+    printf("PID %d = Child Finished, parent exiting...\n", getppid());
 
     sleep(-1);
     }
